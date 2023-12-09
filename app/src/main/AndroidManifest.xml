@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".EditProjectSettings"
+            android:exported="false" />
+        <activity
             android:name=".AddProject"
             android:exported="false" />
         <activity
